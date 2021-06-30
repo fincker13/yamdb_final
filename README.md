@@ -1,8 +1,6 @@
 # API_YAMDB
 
-```markdown
-![example workflow](https://github.com/fincker13/infra_actions/actions/workflows/main.yml/badge.svg)
-```
+![yamdb_workflow](https://github.com/fincker13/infra_actions/actions/workflows/main.yml/badge.svg)
 
 REST API учебного проекта YaMDb для Яндекс.Правктикум
 
