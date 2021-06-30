@@ -1,6 +1,6 @@
 # API_YAMDB
 
-![yamdb_workflow](https://github.com/fincker13/yamdb_final/blob/dev/.github/workflows/yamdb_workflow.yaml/badge.svg)
+![yamdb_workflow](https://github.com/fincker13/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 REST API учебного проекта YaMDb для Яндекс.Правктикум
 
