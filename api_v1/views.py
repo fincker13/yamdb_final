@@ -1,20 +1,16 @@
 from django.db.models import Avg
 from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import viewsets, mixins, filters
+from rest_framework import filters, mixins, viewsets
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from users.permissions import IsAdminOrReadOnly, IsStaffOrOwnerOrReadOnly
+
 from .filters import TitleFilter
 from .models import Categories, Genres, Review, Title
-from .serializers import (
-    CategoriesSerializer,
-    CommentSerializer,
-    GenresSerializer,
-    ReviewSerializer,
-    TitleSerializer
-)
+from .serializers import (CategoriesSerializer, CommentSerializer,
+                          GenresSerializer, ReviewSerializer, TitleSerializer)
 
 
 class BaseViewSet(
