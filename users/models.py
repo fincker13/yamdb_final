@@ -4,7 +4,7 @@ from django.db import models
 
 class UserRoles:
     """Роли пользователей"""
-     USER = "user"
+    USER = "user"
     MODERATOR = "moderator"
     ADMIN = "admin"
     choices = (
@@ -12,6 +12,7 @@ class UserRoles:
         (MODERATOR, MODERATOR),
         (ADMIN, ADMIN),
     )
+
 
 class User(AbstractUser):
     email = models.EmailField(verbose_name='email адрес',
