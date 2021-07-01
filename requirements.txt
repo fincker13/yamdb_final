@@ -3,7 +3,7 @@ attrs==20.3.0
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
-Django==3.0.5
+django==3.0.5
 django-csvimport==2.16
 django-filter==2.4.0
 djangorestframework==3.12.2
@@ -25,8 +25,8 @@ psycopg2-binary==2.8.5
 py==1.10.0
 PyJWT==2.0.1
 pyparsing==2.4.7
-pytest==6.2.2
-pytest-django==4.1.0
+pytest-django==3.9.0
+pytest==5.4.1
 python-dateutil==2.8.1
 python-dotenv==0.17.1
 python-magic==0.4.22
