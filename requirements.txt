@@ -27,3 +27,4 @@ six==1.14.0               # via packaging
 sqlparse==0.3.1           # via django
 urllib3==1.25.9           # via requests
 wcwidth==0.1.9            # via pytest
+python-dotenv==0.17.1
