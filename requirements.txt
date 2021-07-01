@@ -3,7 +3,7 @@ attrs==20.3.0
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
-Django==2.2.6
+Django==3.0.5
 django-csvimport==2.16
 django-filter==2.4.0
 djangorestframework==3.12.2
