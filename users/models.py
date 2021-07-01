@@ -2,12 +2,16 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 
-class UserRoles(models.TextChoices):
+class UserRoles:
     """Роли пользователей"""
-    USER = 'user'
-    MODERATOR = 'moderator'
-    ADMIN = 'admin'
-
+     USER = "user"
+    MODERATOR = "moderator"
+    ADMIN = "admin"
+    choices = (
+        (USER, USER),
+        (MODERATOR, MODERATOR),
+        (ADMIN, ADMIN),
+    )
 
 class User(AbstractUser):
     email = models.EmailField(verbose_name='email адрес',
