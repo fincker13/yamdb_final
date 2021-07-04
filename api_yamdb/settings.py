@@ -12,7 +12,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='very_secret_key')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', ]
 
 
 INSTALLED_APPS = [
