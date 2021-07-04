@@ -2,13 +2,13 @@ version: '3.8'
 
 services: 
     db:
-        image: postgres:latest
+        image: postgres:12.4
         volumes: 
             - postgres_data:/var/lib/postgresql/postgres_data
         env_file: 
             - ./.env
     web:
-        image: ruslanqui/prakticum_yamdb:latest
+        image: ruslanqui/prakticum_yamdb:v0.1
         restart: always
         volumes:
             - static_value:/code/static/
