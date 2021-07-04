@@ -8,7 +8,7 @@ services:
         env_file: 
             - ./.env
     web:
-        image: ruslanqui/prakticum_yamdb:v0.1
+        image: ruslanqui/prakticum_yamdb:latest
         restart: always
         volumes:
             - static_value:/code/static/
